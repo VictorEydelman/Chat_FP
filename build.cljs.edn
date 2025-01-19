@@ -1,0 +1,4 @@
+{:builds {:app {:source-paths ["src"]
+                :compiler {:output-to "out/l4.js"
+                           :optimizations :none
+                           :pretty-print true}}}}

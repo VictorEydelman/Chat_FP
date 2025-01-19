@@ -1,0 +1,18 @@
+{:deps {org.clojure/clojure {:mvn/version "1.10.3"}
+        org.clojure/core.async {:mvn/version "1.6.681"}
+        ring/ring-core {:mvn/version "1.9.3"}
+        ring-cors/ring-cors {:mvn/version "0.1.13"}
+        org.clojure/clojurescript {:mvn/version "1.10.773"}
+        ring/ring-jetty-adapter {:mvn/version "1.9.0"}
+        ring/ring-defaults {:mvn/version "0.3.3"}
+        ring/ring-json {:mvn/version "0.5.0"}
+
+        cheshire {:mvn/version "5.13.0"}
+        cljs-ajax/cljs-ajax {:mvn/version "0.8.0"}
+        reagent/reagent {:mvn/version "1.0.0"}
+        compojure/compojure {:mvn/version "1.6.2"}
+        seancorfield/next.jdbc {:mvn/version "1.0.13"}
+        http-kit/http-kit {:mvn/version "2.5.0"}
+        org.clojure/java.jdbc {:mvn/version "0.7.12"}
+        org.postgresql/postgresql {:mvn/version "42.2.18"}
+      }}

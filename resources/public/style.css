@@ -1,0 +1,58 @@
+/* Основные стили для приложения */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Контейнер для приложения */
+#app {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Стили для списка пользователей */
+.user-list {
+    max-height: 300px; /* Ограничиваем высоту списка */
+    overflow-y: auto; /* Добавляем прокрутку при переполнении */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+/* Стили для каждого элемента списка пользователей */
+.user-item {
+    padding: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.user-item:hover {
+    background-color: #f1f1f1; /* Изменяем цвет фона при наведении */
+}
+
+/* Стили для кнопок */
+.button {
+    padding: 10px 15px;
+    background-color: #007bff; /* Цвет кнопки */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Цвет кнопки при наведении */
+}
+
+/* Заголовок */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
