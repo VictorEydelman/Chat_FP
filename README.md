@@ -293,6 +293,6 @@
   (println @message)
   (when (not (empty? @message))
     (send-message @message)
-    (reset! message "")))                      ))))))
+    (reset! message "")))))))))
 
 ```
