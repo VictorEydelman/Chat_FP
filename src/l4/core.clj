@@ -1,4 +1,4 @@
-(ns l4.coreb
+(ns l4.core
   (:require [cheshire.core :as json]
             [clojure.string :as str]
             [compojure.route :as route]
